@@ -1,0 +1,59 @@
+/*          || UNIVERSAL SELECTOR ||          */
+* {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+
+/*          || ELEMENT SELECTORS  ||          */
+
+header {
+    margin-top: 3%;
+    text-align: center;
+    width: 18%;
+    height: 600px;
+    position: fixed;
+    background-color: darkseagreen;
+    border: 1px solid black;
+    border-radius: 6%;
+    z-index: 2;
+    
+}
+
+body img {
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+
+
+/*          ||   CLASS SELECTORS  ||          */
+
+
+
+.navigation-bar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    z-index: 2;
+}
+
+.navigation-bard ul {
+    color: white;
+}
+
+.navigation-bar ul li {
+    align-items: center;
+    font-size: large;
+    font-weight: bold;
+    margin-top: 45%;
+    margin-left: -20%;
+    margin-bottom: 20%;
+    list-style: none;
+    z-index:2;
+}
+
+
+/*          || INDIVIDUAL SELECTORS ||         */
+
+
