@@ -2,6 +2,7 @@
 <html lang="en-US">
     <head>
         <meta charset="UTF-8">
+        <meta name="viewport" content="width-device-width", initial-scale="1">
         <!--links  to relevant reset sheet and style sheet in css-->
         <link rel="resetsheet" href="./assets/css/reset.css">
         <link rel="stylesheet" href="./assets/css/style.css">
@@ -14,45 +15,95 @@
 
     <body>
         
-        <header>
-            <h1 id="Name">DAVID CHUNG</h1>
-            <section id="" class="navigation-bar">
-                <nav>
-                    <ul>
-                        <li class="About-Me"><a href="About-Me-Description">ABOUT ME</a></li>
-                        <li class="Projects"><a href="Projects-Description">PROJECTS</a></li>
-                        <li class="Contact-Info"><a href="Contact-Info-Description">CONTACT INFO</a></li>
-                    </ul>
-                </nav>
+        <aside>
+             <nav>
+                <h1 id="home"><label for="home-toggle">DAVID CHUNG</label></h1>
+                <input type="checkbox" id="home-toggle" class="visually-hidden">
+                    <section id="buttons-for-sections" class="navigation-bar">
+                        <ul>
+                            <li class="About-Me">
+                                <label for="about-me-toggle">About Me</label>
+                                <input type="checkbox" id="about-me-toggle" class="visually-hidden">
+                            </li>
+                            <li class="Projects">
+                                <label for="projects-toggle">PROJECTS</label>
+                                <input type="checkbox" id="projects-toggle" class="visually-hidden">
+                            </li>
+                            <li class="Contact-Info">
+                                <label for="contact-info-toggle">CONTACT INFO</label>
+                                <input type="checkbox" id="contact-info-toggle" class="visually-hidden">
+                            </li>
+                        </ul>
+             </nav>
             </section>
-        </header>
-        <img id="background-image" src="./assets/images/night-sky-background.jpg" alt="background image of the night sky">
+        </aside>
+<!--
+            <section id="Home-Page-Description" class="Description home-page">
+                <div>
+                    <img src="./assets/css/images/picture.jpg" alt="picture of David Chung in orange hoodie">
+                </div>
+            </section> -->
 
-            <section id="About-Me-Description" class="Description">
-                My name is David Chung and I am an aspiring web developer, interested in creating, updating, and maintaining websites. This includes ensuring that websites are adhering to accessibility standards and are user friendly.
-
+            <section id="About-Me-Description" class="Description about-me" >
+                <div id="picture2" class="Picture-of-Self">
+                    <figure id="selfpicture-1" class="Picture-Bubble-for-AM">
+                        <img src="./assets/css/images/selfpicture1-resized.jpg" alt="picture of David Chung wearing a mask and hoodie">
+                    </figure>
+                </div>
+                <p>
+                    My name is David Chung and I am an aspiring web developer, interested in creating, updating, and maintaining websites. 
+                    This includes ensuring that websites are adhering to accessibility standards and are user friendly.
+                    I received my Bachelor's in Psychology at University of California, Los Angeles, and my Master's in Applied Behavior Analysis from Sage Colleges.
+                    Previously, I worked with individuals with autism, ensuring that they were developing the skills that they needed to match their same-age peers.
+                    This included communication skills, so that the individuals were able to communicate their wants and needs to those around them using methods such as 
+                    pointing, verbally speaking, or using an Augmentative and Alternative communication device.
+                </p>
             </section>
 
-            <section id="Projects-Description" class="Description">
-                <p>Projects that I have made, or worked on (can be completed or in progress).</p>
+  <!--          <section id="Projects-Description" class="Description projects">
+                <div id="blurb">
+                    <p>Projects that I have made, or worked on (can be completed or in progress).</p>
+                        <div class="projects-flexbox">
+                            <figure id="Horiseon-Landing-Page" class="Project-Card">
+                                <p>Site Refactoring to meet accessibility standards</p>
+                                <img src="" alt="screenshot of Horiseon Landing Page website">
+                            </figure>
 
+                            <figure id="" class="Project-Card">
+
+                            </figure>
+
+                            <figure id="" class="Project-Card">
+
+                            </figure>
+
+                            <figure id="" class="Project-Card">
+
+                            </figure>
+                        </div>
+                    </div>    
             </section>
+        -->
 
-            <section id="Contact-Info-Description" class="Description">
+            <section id="Contact-Info-Description" class="Description contact-info">
                 <p>
                     <ul>
                         <li id="link-1"><a href="https://github.com/dchung13">GitHub</a></li>
                         <li id="link-2"><a href="https://www.linkedin.com/in/david-chung-77141526b">LinkedIn</a></li>
+                        <li id="link-3"><a href="mailto: dchung20315@gmail.com">Email Me</a></li>
                         
                     </ul>
                 </p>
 
             </section>
 
+            
+
 
         <footer>
 
         </footer>
+  
     </body>
 
 
