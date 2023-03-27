@@ -2,6 +2,8 @@
 :root {
     --milk: white;
     --pastelg: darkseagreen;
+    --blood: darkred;
+    --oomph: black;
 
 }
 
@@ -22,7 +24,7 @@ aside {
     height: 600px;
     position: fixed;
     background-color: var(--pastelg);
-    border: 1px solid black;
+    border: 1px solid var(--oomph);
     border-radius: 12px;
    
 }
@@ -46,7 +48,7 @@ h1 {
 /*          ||   CLASS SELECTORS  ||          */
 
 
-
+/* Nav bar stylings */
 .navigation-bar {
     display: flex;
     flex-direction: column;
@@ -55,7 +57,7 @@ h1 {
 }
 
 .navigation-bar ul {
-    color: var(milk);
+    color: var(--milk);
 }
 
 .navigation-bar ul li {
@@ -68,14 +70,11 @@ h1 {
     list-style: none;
 }
 
+/*End Nav Bar Stylings*/
+
+/*Section stylings*/
 .Description {
     text-align: center;
-}
-
-.home-page {
-    position: absolute;
-    right: 32%;
-    top: 10%;
 }
 
 .about-me {
@@ -83,15 +82,52 @@ h1 {
     right:10%;
     top: 10%;
 }
-.projects {
-    position: absolute;
-    top: 10%;
-    right: 30%;
+.row {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
-    flex: 1 1 0;
+    margin-left: -15px;
+    margin-right: -15px;
+    position: relative;
+    left:40%;
+    
 }
+
+.justify-center {
+    justify-content: center;
+}
+
+.projects-flexbox {
+    flex: 1 0 100%;
+    padding: 15px;
+    transition: flex-basis 500ms linear;
+    margin-bottom: 15px;
+}
+
+.Project-Card {
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    min-height:10%;
+    max-width:30%;
+    padding: 2%;
+    color: var(--oomph);
+    background-image: linear-gradient(0.25turn, lightgreen, var(--pastelg));
+    border-radius: 10px;
+    outline: 2px solid var(--pastelg);
+    outline-offset: -2px;
+    transition: all 0.5s ease-in-out;
+}
+
+.Project-Card:hover {
+    box-shadow: inset 0px 0px 8px var(--pastelg), 0 0 15px var(--pastelg);
+    transform: scale(1.1);
+}
+.Project-Card img {
+    display: flex;
+    flex: 1 0 100%;
+    max-width: 100%;
+}
+
 
 .contact-info {
     position:absolute;
@@ -100,13 +136,6 @@ h1 {
 }
 .links-list {
     list-style:none;
-}
-.project-card {
-  
-}
-
-.project-card:hover {
-   
 }
 
 /*          || INDIVIDUAL SELECTORS ||         */
@@ -125,6 +154,7 @@ h1 {
     display:block;
     
 }
+
 
 
 /*        || MEDIA SCREEN ADJUST ||          */
