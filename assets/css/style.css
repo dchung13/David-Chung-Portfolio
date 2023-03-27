@@ -23,12 +23,12 @@ aside {
     background-color: darkseagreen;
     border: 1px solid black;
     border-radius: 12px;
-    z-index: 2;
+   
 }
 
 body {
-    background-color:
-     
+    background-image: linear-gradient(
+        .25turn, purple, lavender);
 }
 
 h1 {
@@ -43,10 +43,7 @@ h1 {
 
 /*          ||   CLASS SELECTORS  ||          */
 
-.Description {
-    position: absolute;
-    left: 40%;
-}
+
 
 .navigation-bar {
     display: flex;
@@ -56,7 +53,7 @@ h1 {
 }
 
 .navigation-bar ul {
-    color: var(--readable-color)*/;
+    color: var(--readable-color);
 }
 
 .navigation-bar ul li {
@@ -67,54 +64,73 @@ h1 {
     margin-left: -20%;
     margin-bottom: 20%;
     list-style: none;
-    z-index:2;
+}
+
+.Description {
+    text-align: center;
+}
+
+.home-page {
+    position: absolute;
+    right: 32%;
+    top: 10%;
 }
 
 .about-me {
-    visibility: hidden;
+    position: absolute;
+    right:10%;
+    top: 10%;
+}
+.projects {
+    position: absolute;
+    top: 10%;
+    right: 30%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex: 1 1 0;
 }
 
-.visually-hidden {
-   /* opacity: 0;  */
+.contact-info {
+    position:absolute;
+    right:42%;
+    top: 40%;
+}
+.links-list {
+    list-style:none;
+}
+.project-card {
+  
+}
+
+.project-card:hover {
+   
 }
 
 /*          || INDIVIDUAL SELECTORS ||         */
 
-#About-Me-Description p {
-    text-align: right;
-        color: /*var(--readable-color)*/ black;
+#Home-Page-Description,
+#About-Me-Description,
+#Projects-Description,
+#Contact-Info-Description {
+    display: none;
 }
 
-#about-me-toggle:checked ~ .about-me {
-    visibility: visible;
-}
-
-.control-me::after {
-    content: "😃";
-    font-size: 100px;
-}
-#toggle:checked ~ .control-me::after {
-    content: "😩";
-}
-
-label {
-    background: #A5D6A7;
-    padding: 0.5rem 1rem;
-    border-radius: 0.5rem;
-}
-
-.visually-hidden {
-    position: absolute;
-    left: -100vw;
+#Home-Page-Description:target,
+#About-Me-Description:target,
+#Projects-Description:target,
+#Contact-Info-Description:target {
+    display:block;
     
-    /* Note, you may want to position the checkbox over top the label and set the opacity to zero instead. It can be better for accessibilty on some touch devices for discoverability. */
 }
 
-body {
-    height: 100vh;
-    margin: 0;
-    display: grid;
-    place-items: center;
-    text-align: center;
-    font: 900 24px/1.4 -system-ui, sans-serif;
+
+/*        || MEDIA SCREEN ADJUST ||          */
+
+@media  screen and (max-width:992px) {
+    
+}
+
+@media  screen and (max-width:768px) {
+    
 }
