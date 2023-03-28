@@ -19,12 +19,10 @@ Lastly, this website includes a section with links to contact me through LinkedI
 
 
 Again, here is the link to my website:
-![Site Landing Page](https://dchung13.github.io/David-Chung-Portfolio/)
+[Site Landing Page](https://dchung13.github.io/David-Chung-Portfolio/)
 
 
-## Table of Contents (Optional)
-
-If your README is very long, add a table of contents to make it easy for users to find what they need.
+## Table of Contents 
 
 * [Code Example](#code-example)
 * [Learning Points](#learning-points)
@@ -34,8 +32,6 @@ If your README is very long, add a table of contents to make it easy for users t
 
 
 ## Code Example
-
-
 
 
 ```html
@@ -182,20 +178,10 @@ The above is the associated css properties of the projects section, which includ
 
 ## Learning Points 
 
-
-This is a good place to Explain what you Learned by creating this application.
-This is a great way to remind about all of the Complex Skills you now have.
-If the user is less experienced than you:
-They will be impressed by what you can do!
-
-If the user is more experienced than you:
-They will be impressed by what you can do!
-
-Remember, it is easy to forget exactly how Valuable and Impressive your skills are, as well as How Much You’ve Learned!
-So quantify that here!
-
 Working on this project taught me more about working with different properties in CSS such as using display:flex; to define a flexbox and its associated properties.
+
 Additionally, I learned how to create links that would hide and show their contents when they are clicked.
+
 I have also learned how to apply different properties, such as a shadow or transform, when certain states have been achieved by different elements in the html.
 
 ## Author Info
@@ -212,9 +198,9 @@ I am an aspiring web developer making the switch from Psychology to web developm
 
 Special thanks to Bryan Nguyen for pair programming with me and assisting me with this project.
 Visit his: 
-*[Github](https://github.com/bryannguyen9/)
-*[Portfolio](https://bryannguyen9.github.io/Bryan-Nguyen-Portfolio/)
-*[LinkedIn](https://linkedin.com/in/bryannguyen9)
+* [Github](https://github.com/bryannguyen9/)
+* [Portfolio](https://bryannguyen9.github.io/Bryan-Nguyen-Portfolio/)
+* [LinkedIn](https://linkedin.com/in/bryannguyen9)
 
 
 ## License

@@ -158,9 +158,13 @@ h1 {
 /*        || MEDIA SCREEN ADJUST ||          */
 
 @media  screen and (max-width:992px) {
-    
+    .about-me{
+        transform: scale(0.5);
+    }
 }
 
 @media  screen and (max-width:768px) {
-    
+    .about-me{
+        transform: scale(0.3);
+    }
 }
