@@ -184,6 +184,8 @@ Additionally, I learned how to create links that would hide and show their conte
 
 I have also learned how to apply different properties, such as a shadow or transform, when certain states have been achieved by different elements in the html.
 
+![Screenshot of transform on hover](./assets/css/images/Zoom-on-Hover-Screenshot.png)
+
 ## Author Info
 
 ### David Chung
